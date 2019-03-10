@@ -1,0 +1,14 @@
+~~~~~ Ideas for Rewind ~~~~~~
+
+First real attempt at creating some pleasing Website. I would like to incorporate a lot of inspiration
+from very early websites manually using HTML/CSS. Later I will attempt to use some type of Framework to
+improve the UI and make a cool mixture of retro / modern.
+
+Phase 1 - Start with a serious index.html and style.css including GIFS, pictures, links, mailto, background
+styling, unordered / ordered lists, basic CSS styling
+
+1. Pure HTML (no CSS syling) landing page. This will have basic hyperlinks to other pages on the site, 
+some type of mail-to, my own basic information (maybe Resume esq?)
+2. 
+
+Phase 2 - Make multiple pages, each with a different feeling / progression of web technology

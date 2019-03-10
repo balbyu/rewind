@@ -1,0 +1,18 @@
+.asci {
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+}
+
+h1.asci{
+    vertical-align: 100px;
+}
+body.home-page {
+    text-align: center;    
+    border-style: dashed;
+    font-family: 'Inconsolata', monospace;
+}
+.home-desc {
+    text-align: left;
+    padding: 10px;
+}
