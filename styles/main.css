@@ -16,3 +16,86 @@ body.home-page {
     text-align: left;
     padding: 10px;
 }
+
+#home {
+    background-image: url("../images/banner-background.jpg");
+    min-height: 1000px;
+}
+
+
+.banner{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.home-desc{
+    border-style: ridge;
+    background-color: rgba(94, 255, 0, 0.274); 
+}
+
+.home-desc-odd{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 120px;
+    font: bolder;
+    min-height: 300px;
+    color: white;
+    font-stretch: extra-expanded;
+    text-align: center;
+    background-image: url(../images/banner-background-text.png);
+    background-position: 40px;
+}
+
+.home-desc-odder{
+    background: yellow;
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: 200%;
+}
+
+.ad3 {
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+.ad3:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+#galaxy {
+    background-image: url("../images/starry.jpg");
+    min-height: 1000px;
+    color: rgb(255, 243, 136);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: -.5px 0 yellow, 0 .5px yellow, .5px 0 yellow, 0 -.5px yellow;  
+}
+
+.solar-system{
+    padding-top: 50px;
+}
+
+.earth {
+    display: inline-flex;
+    position: absolute;
+    right: 20px;
+    width: 1200px;
+  }
+
+.mars {
+    display: inline-flex;
+    position: absolute;
+    top: 1800px;
+    left: 30px;
+    padding: 30px;
+}
+
+.saturn {
+    display: inline-flex;
+    position: absolute;
+    top: 2150px;
+    right: 30px;
+    width: 80%;
+}
+
+
