@@ -12,7 +12,7 @@ body.home-page {
     border-style: dashed;
     font-family: 'Inconsolata', monospace;
 }
-.home-desc {
+.home-text {
     text-align: left;
     padding: 10px;
 }
