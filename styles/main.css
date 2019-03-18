@@ -22,7 +22,11 @@ body.home-page {
     min-height: 1000px;
 }
 
-
+.entire-body{
+    border-style: double;
+    border-width: 5px;
+    margin: 5px;
+}
 .banner{
     display: flex;
     flex-wrap: wrap-reverse;
@@ -69,6 +73,7 @@ body.home-page {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     text-shadow: -.5px 0 yellow, 0 .5px yellow, .5px 0 yellow, 0 -.5px yellow;  
+    border: dotted;
 }
 
 .solar-system{
@@ -97,5 +102,65 @@ body.home-page {
     right: 30px;
     width: 80%;
 }
+
+.quiz{
+    background-color: aqua;
+    min-height: 1000px;
+    border: 40px solid transparent;
+    border-image: url("../images/hunk.jpg") 60 round ;
+    background: url("../images/hunk.jpg");
+    color: purple;
+    font-size: 38px;
+    font-stretch: extra-expanded;
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+
+}
+
+.god-container {
+    position: absolute;
+    width: 100%;
+  }
+  
+.god{
+    border: 10px solid gold;
+    height: auto;
+    border-radius: 50%;
+    width: 40%;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../images/hunk.jpg);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  
+  .god-container:hover .overlay {
+    height: 100%;
+
+  }
+  
+  .text {
+    white-space: pre-wrap; 
+    color: rgb(9, 81, 153);
+    font-family: 'Inconsolata', monospace;
+    font-size: 80px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
 
 
