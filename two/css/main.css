@@ -1,0 +1,166 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.submit-button{
+    height: 38px;
+    background: #F8C480;
+    color: rgba(78, 78, 78, 0.897);
+    border: none;
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+}
+
+.submit-button:hover{
+    background-color: rgba(166, 248, 128, 0.541);
+    cursor: pointer;
+}
+
+/* Header */
+header{
+    background: rgb(211, 91, 5);
+    color: rgb(255, 169, 169);
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #F8C480 5px solid;
+}
+
+header a{
+    color: rgb(255, 169, 169);
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0px 20px;
+}
+
+header #pronunciation{
+    float: left;
+}
+
+header #pronunciation h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 30px;
+}
+
+header .highlight, header .current a{
+    color: #F8C480;
+    font-weight: bold;
+    
+}
+
+header .highlight:hover{
+    color: rgba(78, 78, 78, 0.897);
+}
+
+header a:hover{
+    color:rgba(166, 248, 128, 0.541);
+    font-style: italic;
+}
+
+/* Definition */
+#definition{
+    min-height: 580px;
+    background: url(../img/skies.png) no-repeat;
+    color: rgba(78, 78, 78, 0.897);
+    border-bottom: #F8C480 3px solid;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#definition h1{
+    margin-top: 40px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+#definition .container{
+    margin-bottom: 30px;
+}
+
+/* Newsletter Subscribe */
+#subscribe{
+    padding: 30px;
+    background:#FFE6A5;
+    border-bottom: #F8C480 3px solid;
+    color: rgba(78, 78, 78, 0.897);
+}
+
+#subscribe h1{
+    float: left;
+    font-weight: lighter;
+}
+
+#subscribe form{
+    float: right;
+    margin-top: 20px;
+}
+
+#subscribe input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+}
+
+/* Break */
+
+#break{
+    min-height: 600px;   
+    background: url(../img/stardew-background.png) no-repeat;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+
+/* Pictures */
+#pictures{
+    min-height: 300px;
+    background: rgba(166, 248, 128, 0.541);
+    border-top: #F8C480 5px solid;
+}
+
+#pictures .picture{
+    margin-top:60px;
+    float: left;
+    width: 22%;
+    padding: 70px;
+    text-align: center;
+}
+
+.container-2{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
