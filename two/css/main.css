@@ -70,7 +70,6 @@ header nav{
 header .highlight, header .current a{
     color: #F8C480;
     font-weight: bold;
-    
 }
 
 header .highlight:hover{
@@ -121,7 +120,7 @@ header a:hover{
     padding-left: 300px;
 }
 
-/* Newsletter Subscribe */
+/* Subscribe */
 #subscribe{
     padding: 30px;
     background:#FFE6A5;
@@ -143,11 +142,9 @@ header a:hover{
     padding: 4px;
     height: 25px;
     width: 250px;
-
 }
 
-/* Break */
-
+/* Video */
 #break{
     min-height: 774px;   
     background: url(../img/stardew-background.png) no-repeat;
@@ -163,9 +160,14 @@ header a:hover{
     text-align: center;
     padding-top: 150px;
 }
-  
 
 /* Pictures */
+.container-picture{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
 #pictures{
     min-height: 774px;
     background: rgba(166, 248, 128, 0.541);
@@ -184,12 +186,10 @@ header a:hover{
 .picture a{
     text-decoration: none;
     color: black;
-   
     animation-duration: 3s;
     animation-name: changeColor;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    
 }
 
 .picture a:hover{
@@ -200,7 +200,6 @@ header a:hover{
 
 #pictures .picture:hover{
     transform: scale(1.4, 1.4);
-    
 }
 
 #pictures .picture img{
@@ -221,20 +220,13 @@ header a:hover{
     }
   }
 
-.container-2{
-    width: 90%;
-    margin: auto;
-    overflow: hidden;
-}
 
 /* Footer */
-
 footer{
     padding: 20px;
     color: white;
     background-color: rgba(99, 148, 76, 0.842);
     text-align: center;
-
 }
 
 /* Media Query */
@@ -284,10 +276,7 @@ footer{
         padding-bottom: 20px;
     }
 
-    #second{
-        padding-left: 0px;
-    }
-    
+    #second,
     #third{
         padding-left: 0px;
     }

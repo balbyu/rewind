@@ -1,3 +1,4 @@
+// Plays the sound matched by name provided.
 function PlaySound(name) {
 
     switch (name) {
