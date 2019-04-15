@@ -78,8 +78,7 @@ header .highlight:hover{
 
 header a:hover{
     color:rgba(166, 248, 128, 0.541);
-    font-style: italic;
-}
+ }
 
 /* Definition */
 #definition{
@@ -171,7 +170,8 @@ header a:hover{
 #pictures{
     min-height: 774px;
     background: rgba(166, 248, 128, 0.541);
-    border-top: rgb(211, 91, 5) 5px solid;
+    border-top: #F8C480 5px solid;
+    
 }
 
 #pictures .picture{
@@ -224,9 +224,10 @@ header a:hover{
 /* Footer */
 footer{
     padding: 20px;
-    color: white;
-    background-color: rgba(99, 148, 76, 0.842);
+    color: rgb(255, 255, 255);
+    background-color: rgb(211, 91, 5);
     text-align: center;
+    font-weight: bold;
 }
 
 /* Media Query */
