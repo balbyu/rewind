@@ -84,7 +84,7 @@ header a:hover{
 
 /* Definition */
 #definition{
-    min-height: 580px;
+    min-height: 774px;
     background: url(../img/skies.png) no-repeat;
     color: rgba(78, 78, 78, 0.897);
     border-bottom: #F8C480 3px solid;
@@ -104,6 +104,21 @@ header a:hover{
 
 #definition .container{
     margin-bottom: 30px;
+}
+
+#emphasize{
+    color: rgb(255, 169, 169);
+    font-style: italic;
+}
+
+#second{
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+#third{
+    padding-top: 50px;
+    padding-left: 300px;
 }
 
 /* Newsletter Subscribe */
@@ -134,7 +149,7 @@ header a:hover{
 /* Break */
 
 #break{
-    min-height: 600px;   
+    min-height: 774px;   
     background: url(../img/stardew-background.png) no-repeat;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -142,25 +157,82 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#video{
+    display: block;
+    text-align: center;
+    padding-top: 150px;
+}
   
 
 /* Pictures */
 #pictures{
-    min-height: 300px;
+    min-height: 774px;
     background: rgba(166, 248, 128, 0.541);
-    border-top: #F8C480 5px solid;
+    border-top: rgb(211, 91, 5) 5px solid;
 }
 
 #pictures .picture{
-    margin-top:60px;
+    margin-top: 120px;
     float: left;
     width: 22%;
     padding: 70px;
     text-align: center;
+    transition: 0.2s ease;
 }
+
+.picture a{
+    text-decoration: none;
+    color: black;
+   
+    animation-duration: 3s;
+    animation-name: changeColor;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+.picture a:hover{
+    color: #F8C480;
+    transition: color 0.3s ease;
+    animation-play-state: paused;
+}
+
+#pictures .picture:hover{
+    transform: scale(1.4, 1.4);
+    
+}
+
+#pictures .picture img{
+    cursor: grab;
+}
+
+#pictures .picture img:active{
+    cursor: grabbing;
+}
+
+@keyframes changeColor {
+    from {
+      color: black;
+    }
+  
+    to {
+      color: #F8C480;
+    }
+  }
 
 .container-2{
     width: 90%;
     margin: auto;
     overflow: hidden;
+}
+
+/* Footer */
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: rgba(99, 148, 76, 0.842);
+    text-align: center;
+
 }

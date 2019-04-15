@@ -15,14 +15,15 @@
     <header>
         <div class="container">
             <div id="pronunciation">
-                <h1 style="display:inline;"><span class="highlight"> apple</span> | <a href="../index.html">'a-pəl</a></h1>
+                <h1 style="display:inline;"><span class="highlight"> apple</span> | <a href="../index.html">'a-pəl</a>
+                </h1>
                 <h3>noun, often attributive</h3>
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">Welcome</a></li>
-                    <li><a href="index.html">Examples</a></li>
-                    <li><a href="index.html">Consume</a></li>
+                    <li class="current"><a href="index.html">Definition</a></li>
+                    <li><a href="index.html">Games</a></li>
+                    <li><a href="index.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -30,21 +31,34 @@
 
     <section id="definition">
         <div class="container">
-            <h1>Definition of <i>apple</i></h1>
-            <p>1: the fleshy, usually rounded red, yellow, or green edible pome fruit of a usually cultivated tree (genus Malus) of the rose family</p>
-            <p>2: a fruit (such as a star apple) or other vegetative growth (such as an oak apple) suggestive of an apple</p>
+            <div id="first">
+                    <h1>Definition of <span id="emphasize">apple</span></h1>
+                    <p>1: the fleshy, usually rounded red, yellow, or green edible pome fruit of a usually cultivated tree
+                        (genus Malus) of the rose family</p>
+                    <p>2: a fruit (such as a star apple) or other vegetative growth (such as an oak apple) suggestive of an
+                        apple</p>
+            </div>
 
-            <br>
+            <div id="second">
+                    <h2>Examples of <span id="emphasize">apple</span> in a Sentence</h2>
+                    <p>// All signs of the palace were swept away, replaced by neat lines of <i>apple</i> trees that ran all the way to the beach beyond.</p>
+                    <p>// Fred was absent when they arrived home, but returned just as Cynthia was cutting a warmed <i>apple</i> pie for a late afternoon snack.</p>
+                    <p>// He'd buried his emotions for Claire there, among the <i>apple</i> trees where he'd first met her.</p>
+            </div>
 
-            <h2>Examples of <i>apple</i> in a Sentence</h2>
-            <p>// With only 51 in a 100-member body – and with a strategy that depends heavily on Republican unity – even one defection or absence can upset the <i>apple</i> cart.</p>
-            <p>// Meanwhile, the sports-betting <i>apple</i> cart might spread fiscal sunshine on various government agencies.</p>
+            <div id="third">
+                    <h2>History and Etymology for <span id="emphasize">apple</span></h2>
+                    <p>Middle English <i>appel</i>, from Old English <i>æppel</i>; akin to Old High German <i>apful</i> apple, Old Irish <i>ubull</i>, Old Church Slavonic <i>ablŭko</i></p>
+
+            </div>
+
+            
         </div>
     </section>
 
     <section id="subscribe">
         <div class="container">
-            <h1>subscribe to all <i>apple</i> related news</h1>
+            <h1>subscribe to all <i>malus pumila</i> related news</h1>
             <form action="">
                 <input type="email" placeholder="Enter Email...">
                 <button type="submit" class="submit-button">Subscribe</button>
@@ -53,24 +67,44 @@
     </section>
 
     <section id="break">
-        </section>
+        <div id="video">
+            <iframe width="760" height="515" src="https://www.youtube.com/embed/b0pCd3WCE5k" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+    </section>
 
     <section id="pictures">
         <div class="container-2">
             <div class="picture">
-                <img src="img/gala.png" alt="Gala Apple" width="200">
-                <h3>Galla</h3>
-                <p>Enter text for Galla apple.</p>
+                <a onclick="PlaySound('gala')"><img src="img/gala.png" alt="Gala Apple" width="200"></a>
+                <audio id="gala" src="../two/img/crunching.mp3" autostart="false"></audio>
+                <h3>Gala</h3>
+                <p>Gala is a <a href="https://en.wikipedia.org/wiki/Cloning#Horticultural">clonally propagated</a> apple
+                    <a href="https://en.wikipedia.org/wiki/Cultivar">cultivar</a> with a mild and sweet flavor. In 2018,
+                    it surpassed <a href="https://en.wikipedia.org/wiki/Red_Delicious">Red Delicious</a> as the apple
+                    cultivar with the highest production in the United States, according to the <a
+                        href="https://en.wikipedia.org/wiki/US_Apple_Association">US Apple Association</a>.</p>
             </div>
             <div class="picture">
-                <img src="img/granny.png" alt="Granny Smith Apple" width="200">
+                <a onclick="PlaySound('granny')"><img src="img/granny.png" alt="Granny Smith Apple" width="200"></a>
+                <audio id="granny" src="../two/img/choking.wav" autostart="false"></audio>
                 <h3>Granny Smith</h3>
-                <p>Enter text for Granny Smith apple.</p>
+                <p>The Granny Smith is a tip-bearing apple cultivar, which originated in <a
+                        href="https://en.wikipedia.org/wiki/Australia">Australia </a> in 1868. It is named after <a
+                        href="https://en.wikipedia.org/wiki/Maria_Ann_Smith">Maria Ann Smith</a>, who propagated the
+                    cultivar from a chance seedling.</p>
             </div>
             <div class="picture">
-                <img src="img/honey.png" alt="Honeycrisp Apple" width="200">
+                <a onclick="PlaySound('honey')"><img src="img/honey.png" alt="Honeycrisp Apple" width="200"></a>
+                <audio id="honey" src="../two/img/siren.mp3" autostart="false"></audio>
                 <h3>Honeycrisp</h3>
-                <p>Enter text for Honey Crisp apple.</p>
+                <p>Honeycrisp is an apple cultivar developed at the <a
+                        href="https://en.wikipedia.org/wiki/Minnesota_Landscape_Arboretum">Minnesota Agricultural
+                        Experiment Station's</a> Horticultural Research Center at the <a
+                        href="https://en.wikipedia.org/wiki/University_of_Minnesota">University of Minnesota</a>,Twin
+                    Cities.</p>
             </div>
         </div>
     </section>
@@ -88,5 +122,7 @@
 
 
 </body>
+
+<script src="js/sound.js"></script>
 
 </html>
