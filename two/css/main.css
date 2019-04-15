@@ -236,3 +236,59 @@ footer{
     text-align: center;
 
 }
+
+/* Media Query */
+@media(max-width: 768px){
+    header #pronunciation,
+    header nav,
+    header nav li,
+    #pictures .picture,
+    #subscribe h1,
+    #subscribe form{
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    header nav li{
+        padding: 5px;
+    }
+
+    #pictures .picture:hover{
+        transform: none;
+    }
+
+    #video{
+        display: none;
+    }
+
+    #subscribe input[type="email"]{
+        display: block;
+        width: 100%;
+
+    }
+
+    .submit{
+        width: 100%;
+    }
+
+    .submit-button{
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    header{
+        padding-bottom: 20px;
+    }
+
+    #second{
+        padding-left: 0px;
+    }
+    
+    #third{
+        padding-left: 0px;
+    }
+}
