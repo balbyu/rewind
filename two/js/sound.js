@@ -1,5 +1,5 @@
 // Plays the sound matched by name provided.
-function PlaySound(name) {
+function playSound(name) {
 
     switch (name) {
         case 'gala':
