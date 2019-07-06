@@ -220,7 +220,6 @@ header a:hover{
     }
   }
 
-
 /* Footer */
 footer{
     padding: 20px;
@@ -283,13 +282,40 @@ footer{
 }
 
 /* Game */
-#game{
-    background-color: rgb(255, 78, 116);
-    min-height: 600px;
+
+@keyframes changeBackgroundColor {
+    from {
+      background-color: rgb(251, 236, 152);
+    }
+  
+    to {
+      background-color: rgb(128, 130, 248);
+    }
+  }
+
+  @keyframes changeBorderColor {
+    from {
+        border: rgb(128, 130, 248) 1px solid;
+    }
+  
+    to {
+        border: rgb(251, 236, 152) 20px solid;
+    }
+  }
+
+canvas {
+    margin: 0 auto;
+    animation-duration: 1s;
+    animation-name: changeBorderColor;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-canvas{
-    background-color: white;
+#game{
+    animation-duration: 10s;
+    animation-name: changeBackgroundColor;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 
